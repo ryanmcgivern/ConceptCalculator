@@ -56,9 +56,9 @@
             this.lblOutput.AutoSize = true;
             this.lblOutput.Location = new System.Drawing.Point(173, 21);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(87, 13);
+            this.lblOutput.Size = new System.Drawing.Size(13, 13);
             this.lblOutput.TabIndex = 0;
-            this.lblOutput.Text = "Doobedoobedoo";
+            this.lblOutput.Text = "0";
             // 
             // btn7
             // 
