@@ -10,9 +10,19 @@ namespace Concept_Calculator
     {
         private decimal currentValue = 0;
 
-        public void isValueValid(decimal newValue)
+        public bool isValueValid(string newValue)
         {
-          
+            decimal test;
+            try
+            {
+                test = Decimal.Parse(newValue);
+            }
+            catch
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }

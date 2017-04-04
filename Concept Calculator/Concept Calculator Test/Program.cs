@@ -7,6 +7,9 @@ namespace Concept_Calculator_Test
     class Program
     {
        
+        static void Main()
+        {
 
+        }
     }
 }

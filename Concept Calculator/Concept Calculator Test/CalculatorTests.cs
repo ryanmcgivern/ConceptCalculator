@@ -16,9 +16,13 @@ namespace Concept_Calculator_Test
         }
 
         [Test]
-        public void isValidValueEntered()
+        public void isValidValueEnteredLetter()
         {
+            bool result;
 
+            result = calc.isValueValid("e");
+
+            Assert.IsFalse(result, "Value should be valid!");
         }
     }
 }
